@@ -3,7 +3,7 @@
 
 body {
     margin : 0;
-    
+        background-color: #0E0A0F;
 }
 
 h1  , h2 {
@@ -17,10 +17,10 @@ h1  , h2 {
     -webkit-text-fill-color: transparent;
 }
 
-p {
+p , h3 {
     font-family: 'Alexandria', sans-serif;
     font-size: 1.5rem;
-    color: #e4dede;
+    color: #F8E9FE;
     text-align: center;
     margin-top: 10px;
 }
@@ -30,7 +30,6 @@ p {
 /* NavBar */
 
 header {
-    background-color: #0E0A0F;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -137,10 +136,6 @@ header .logo img {
     margin-bottom: 0.6rem;
 }
 
-.hero-content-text p {
-    color: #F8E9FE;
-}
-
 .texto-degradado {
     background: linear-gradient(to right, #FFFFFF, #E4A0F7);
     -webkit-background-clip: text;
@@ -178,5 +173,33 @@ header .logo img {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+
+.showcase1 {
+    margin-top: 7rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: 60vh;
+}
+
+
+.card-list-showcase2 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5rem;
+    list-style: none;
+    padding: 0;
+    margin: 2rem;
+}
+
+.card-list-showcase2 .card {
+    border-radius: 5%;
+    background-color: #121214;
+    background : linear-gradient(180deg, #0E0A0F, #2b262c);
+    margin : 1.5rem;
+    border: 3px solid black;
+    color:#ffffff;
+    padding : 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+}
 
 
