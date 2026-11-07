@@ -2,7 +2,7 @@
 
 
 body {
-    margin: 0;
+    margin : 0;
     
 }
 
@@ -12,6 +12,9 @@ h1  , h2 {
     color: #c2c2c2;
     text-align: center;
     margin-top: 20px;
+    background: linear-gradient(to right, #FFFFFF, #E4A0F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -109,12 +112,70 @@ header .logo img {
     min-height: 60vh;
 }
 
+.hero-new-btn  {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem  ;
+    margin-left: 42rem;
+    margin-right: 42rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    background-color: #4d464e;
+}
 
+.hero-new-btn .btn {
+    background-color: #AF2ECB;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 0.6rem;
+}
 
-h1 texto-degradado {
-    background: linear-gradient(to right, #AF2ECB, #D4CEBB);
+.hero-content-text p {
+    color: #F8E9FE;
+}
+
+.texto-degradado {
+    background: linear-gradient(to right, #FFFFFF, #E4A0F7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+
+.hero-content-buttons .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-content-buttons .start-free-trial {
+    background-color: #E4A0F7;
+    color: #000000;
+    font-family: 'Alexandria', sans-serif;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#watch-demo {
+    background-color: transparent;
+    color: #E4A0F7;
+    font-family: 'Alexandria', sans-serif;
+    border: 2px solid #E4A0F7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
