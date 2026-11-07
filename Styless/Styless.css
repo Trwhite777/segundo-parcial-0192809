@@ -3,14 +3,13 @@
 
 body {
     margin : 0;
-        background-color: #0E0A0F;
+    background-color: #0E0A0F;
 }
 
 h1  , h2 {
     font-family: 'Anybody' , sans-rerif;
     font-size: 4rem;
     color: #c2c2c2;
-    text-align: center;
     margin-top: 20px;
     background: linear-gradient(to right, #FFFFFF, #E4A0F7);
     -webkit-background-clip: text;
@@ -115,9 +114,10 @@ header .logo img {
     justify-content: center;
     display: flex;
     gap: 1rem;
+    padding: 0rem;
     align-items: center;
     font-size: 1.5rem;
-    margin-top: 0.5rem  ;
+    margin-top: 3rem  ;
     margin-left: 42rem;
     margin-right: 42rem;
     margin-bottom: 3rem;
@@ -132,16 +132,9 @@ header .logo img {
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
     margin-bottom: 0.6rem;
 }
 
-.texto-degradado {
-    background: linear-gradient(to right, #FFFFFF, #E4A0F7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-}
 
 
 .hero-content-buttons .button {
@@ -159,7 +152,6 @@ header .logo img {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #watch-demo {
@@ -172,6 +164,10 @@ header .logo img {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+
+
+/* showcase 1 */
 
 
 .showcase1 {
@@ -192,14 +188,49 @@ header .logo img {
 }
 
 .card-list-showcase2 .card {
+    text-align: left;
     border-radius: 5%;
     background-color: #121214;
     background : linear-gradient(180deg, #0E0A0F, #2b262c);
-    margin : 1.5rem;
+    margin : 1,5rem;
     border: 3px solid black;
     color:#ffffff;
     padding : 1rem;
     border: 1px solid rgba(255, 255, 255, 0.08); 
 }
 
+.card-list-showcase2 .card p,h3 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.card-list-showcase2 .card img {
+    border-radius: 5%;
+    background-color: #121214;
+    background : #443149;
+    margin : 1.5rem;
+    color:#ffffff;
+    padding : 1rem;
+}
+
+
+/* showcase 2 */
+
+.showcase2 {
+    justify-content: center;
+    text-align: center;
+    background-image: url('/assets/grid\ pattern-1.png');
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.showcase2 .button {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 16px;
+}
 
