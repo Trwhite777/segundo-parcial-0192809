@@ -20,7 +20,6 @@ p , h3 {
     font-family: 'Alexandria', sans-serif;
     font-size: 1.5rem;
     color: #F8E9FE;
-    text-align: center;
     margin-top: 10px;
 }
 
@@ -73,7 +72,9 @@ header .logo img {
 }
 
 .nav-links a:hover {
-  color: #d4cebb;
+      transform: scale(1.05); 
+  transition: 0.5s;
+  color: #bd7ae4;
   text-decoration: underline;
 }
 
@@ -151,6 +152,8 @@ header .logo img {
     gap: 1rem;
 }
 
+
+
 .hero-content-buttons .start-free-trial {
     background-color: #E4A0F7;
     color: #000000;
@@ -159,6 +162,11 @@ header .logo img {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.hero-content-buttons .start-free-trial:hover {
+        transform: scale(1.05); 
+    transition: 0.5s;
 }
 
 #watch-demo {
@@ -170,6 +178,11 @@ header .logo img {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#watch-demo:hover {
+    transform: scale(1.05); 
+    transition: 0.5s;
 }
 
 
@@ -204,6 +217,13 @@ header .logo img {
     color:#ffffff;
     padding : 1rem;
     border: 1px solid rgba(255, 255, 255, 0.08); 
+    
+}
+
+.card-list-showcase2 .card:hover {
+    transform: scale(1.05); 
+    transition: 0.5s;
+    border: solid rgb(206, 11, 245);
 }
 
 .card-list-showcase2 .card p  {
@@ -266,13 +286,11 @@ header .logo img {
 .showcase3-text-conteiner  {
     margin-left: 2.5rem;
     margin-bottom: 2rem;
-    text-align: left;
 } 
 
 .showcase3-text-conteiner  p {
     margin: 0;
     margin-bottom: 0.7rem;
-    text-align: left;
 }
 
 .showcase3-text-conteiner button {
